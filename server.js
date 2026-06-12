@@ -9,6 +9,6 @@ const server = http.createServer(app);
 inicializarSockets(server);
 
 const PORT = 3000;
-server.listen(PORT, () => {
-  console.log(`🎲 Servidor rodando na porta ${PORT}`);
+server.listen(3000, "0.0.0.0", () => {
+  console.log("🎲 Servidor rodando na porta 3000");
 });

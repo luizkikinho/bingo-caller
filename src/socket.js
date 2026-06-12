@@ -2,7 +2,7 @@ const { Server } = require("socket.io");
 const bingoLogic = require("./bingoLogic");
 
 function inicializarSockets(server) {
-  const io = new Server(server, {
+  const io = require("socket.io")(server, {
     cors: {
       origin: "*",
       methods: ["GET", "POST"],
