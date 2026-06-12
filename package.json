@@ -1,0 +1,16 @@
+{
+  "name": "web-bingo-caller",
+  "version": "1.0.0",
+  "description": "Um simples aplicativo web para gerenciar e jogar bingo em lugares públicos",
+  "license": "ISC",
+  "author": "Luiz Charleaux",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3"
+  }
+}
