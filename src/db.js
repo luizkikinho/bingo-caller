@@ -1,5 +1,5 @@
 const db = {
-    numerosSorteados = []
-}
+  numerosSorteados: [],
+};
 
 module.exports = db;
